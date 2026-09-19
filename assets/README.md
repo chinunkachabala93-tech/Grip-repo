@@ -20,3 +20,17 @@ assets/projects/ev-supply-chain/
 - Redact client names, drawing numbers, signatures, coordinates, and sensitive dimensions before publishing.
 
 The CSS-generated visuals are intentional placeholders and keep the first version of the site complete without presenting mock drawings as completed client work.
+
+## Put a real picture on a project card
+
+Upload the picture into the matching folder, then place an image inside the card's `project-art` element in `index.html`:
+
+```html
+<div class="project-art">
+  <img src="assets/projects/hvac/sports-hall-layout.webp"
+       alt="Sports hall HVAC layout showing the supply duct arrangement">
+  <span>HVAC / MEP</span>
+</div>
+```
+
+The stylesheet automatically crops the image to the card. Keep the important part near the centre of the picture.

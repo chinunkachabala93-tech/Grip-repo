@@ -52,6 +52,8 @@ Grip-repo/
 
 Remove client names, drawing numbers, coordinates, signatures, and commercially sensitive information before publishing.
 
+You can also upload images directly on GitHub: open the target `assets/projects/...` folder, choose **Add file → Upload files**, select the image, and commit it to `main`. Then add its path to the relevant project card in `index.html`.
+
 ## Design principles
 
 - Static, accessible, and mobile-friendly
