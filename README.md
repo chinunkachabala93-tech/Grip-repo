@@ -1,6 +1,6 @@
 # Mac Key Grip Engineering Portfolio
 
-A lightweight engineering portfolio for **Chinunka Chabala** and **Mac Key Grip Engineering**, presenting selected work across HVAC, mechanical and plumbing services, CAD design, data analysis, and supply-chain modelling.
+A polished, responsive engineering portfolio for **Chinunka Chabala** and **Mac Key Grip Engineering**, presenting capability across HVAC, mechanical and plumbing services, CAD design, data analysis, and supply-chain modelling.
 
 ## Portfolio areas
 
@@ -16,8 +16,8 @@ A lightweight engineering portfolio for **Chinunka Chabala** and **Mac Key Grip 
 No build step or dependencies are required.
 
 ```bash
-git clone https://github.com/chinunkachabala93-tech/Grip-repo.git
-cd Grip-repo
+git clone https://github.com/mackeygrip/mackeygrip.github.io.git
+cd mackeygrip.github.io
 python -m http.server 8000
 ```
 
@@ -59,18 +59,29 @@ Grip-repo/
 
 Remove client names, drawing numbers, coordinates, signatures, and commercially sensitive information before publishing.
 
+## Activate contact channels
+
+Open `script.js` and add the official links inside the `contactChannels` object. Use a full public profile URL for Instagram, Facebook and TikTok, `mailto:name@example.com` for email, and international number format for WhatsApp:
+
+```js
+whatsapp: { url: 'https://wa.me/260XXXXXXXXX', label: '+260 ...' },
+email: { url: 'mailto:name@example.com', label: 'name@example.com' }
+```
+
+Channels without a URL remain visible but safely inactive, so no contact detail is invented.
+
 You can also upload images directly on GitHub: open the target `assets/projects/...` folder, choose **Add file → Upload files**, select the image, and commit it to `main`. Then add its path to the relevant project card in `index.html`.
 
 ## Design principles
 
-- Static, accessible, and mobile-friendly
+- Corporate industrial visual system, accessible and mobile-friendly
 - Honest project descriptions without invented performance claims
 - Easy to extend without a framework
 - Printable project overview
 
 ## Contact
 
-- **Profile:** [Chinunka Chabala on GitHub](https://github.com/chinunkachabala93-tech)
+- **Website:** [mackeygrip.github.io](https://mackeygrip.github.io/)
 - **Location:** Lusaka, Zambia
 
 ## License
