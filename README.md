@@ -34,6 +34,9 @@ Grip-repo/
 ├── index.html          # Portfolio content and page structure
 ├── styles.css          # Responsive visual system
 ├── script.js           # Navigation and project filtering
+├── sitemap.xml         # Preferred public URL for search engines
+├── robots.txt          # Crawler access and sitemap discovery
+├── .nojekyll           # Serve the static site without Jekyll processing
 ├── assets/
 │   ├── brand/          # Original MKG logo assets
 │   ├── projects/       # Your future project media
@@ -73,3 +76,12 @@ You can also upload images directly on GitHub: open the target `assets/projects/
 ## License
 
 Code is available under the [MIT License](LICENSE). Project drawings and client deliverables added later may require separate usage terms.
+
+## Google indexing
+
+The public site is configured for `https://mackeygrip.github.io/` with canonical metadata, structured business data, `robots.txt`, and an XML sitemap. After publishing:
+
+1. Add the URL-prefix property `https://mackeygrip.github.io/` in Google Search Console.
+2. Verify ownership using Google's HTML-file method by adding the supplied verification file to the repository root.
+3. Submit `https://mackeygrip.github.io/sitemap.xml` in the Sitemaps report.
+4. Inspect the homepage URL and request indexing.
