@@ -1,36 +1,31 @@
 # Portfolio media
 
-Add public-safe project images under category folders:
+## Current drawing sets
 
-```text
-assets/projects/hvac/
-assets/projects/water-sewer/
-assets/projects/fuel/
-assets/projects/cad/
-assets/projects/data/
-assets/projects/ev-supply-chain/
-```
+The ten PNGs in `assets/projects/` are unchanged copies of the drawings supplied for this portfolio. Five HTML pages in `projects/` group them by project. The duplicate office upload is included only once.
 
-## Recommended export
+Full-sheet viewers retain the source title blocks and credits. The crop windows on the homepage and project pages use CSS to display selected areas of the original image without changing the file or inventing technical content.
 
-- Use WebP where possible.
-- Target 1600–2000 px on the long edge and less than 500 KB per image.
-- Use descriptive lowercase filenames, for example `sports-hall-duct-layout.webp`.
-- Add useful alternative text in `index.html`; do not repeat the filename.
-- Redact client names, drawing numbers, signatures, coordinates, and sensitive dimensions before publishing.
+## Replacing a drawing
 
-The CSS-generated visuals are intentional placeholders and keep the first version of the site complete without presenting mock drawings as completed client work.
+1. Export the approved drawing from CAD. A vector PDF is best for fine annotation; a high-resolution PNG is useful for the web preview.
+2. For larger sheets, aim for a PNG around 3500–5000 pixels wide if it remains a manageable download. Inspect the smallest labels at full size.
+3. Replace the relevant file in `assets/projects/`, retaining its name if the layout is unchanged.
+4. If the pixel dimensions change, update the HTML image width/height, the crop coordinates and the `1600` source-width value in `drawings.css` (or introduce a per-image source-width variable).
+5. Update the page description only with confirmed scope, role and project information.
+6. If a PDF becomes available, add a separate link labelled “Download drawing PDF”; do not label a PNG as a PDF.
 
-## Put a real picture on a project card
+## Adding another sheet
 
-Upload the picture into the matching folder, then place an image inside the card's `project-art` element in `index.html`:
+Add its PNG to `assets/projects/`. On the relevant project page:
 
-```html
-<div class="project-art">
-  <img src="assets/projects/hvac/sports-hall-layout.webp"
-       alt="Sports hall HVAC layout showing the supply duct arrangement">
-  <span>HVAC / MEP</span>
-</div>
-```
+- Add an option to `#sheet-select` with the image path and download filename.
+- Add a matching direct link in `.sheet-files` so the sheet remains accessible without JavaScript.
+- Update the sheet count on the project page and its homepage card.
+- Preserve original authorship and issue information; use only materials approved for public portfolio use.
 
-The stylesheet automatically crops the image to the card. Keep the important part near the centre of the picture.
+## Detail windows
+
+`.drawing-window` uses four inline custom properties: `--crop-x`, `--crop-y`, `--crop-width` and `--crop-height`. Coordinates refer to the original 1600 × 1280 image. These windows are presentation crops only. The full original remains accessible in the viewer.
+
+Reference photography is credited separately in `CREDITS.md`. The original Mac Key Grip logo is unchanged.

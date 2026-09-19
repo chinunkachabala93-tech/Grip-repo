@@ -4,6 +4,18 @@ A polished, responsive engineering portfolio for **Chinunka Chabala** and **Mac 
 
 ## Portfolio areas
 
+The drawing portfolio now contains **10 original PNG sheets across 5 project sets**:
+
+| Project set | Sheets |
+| --- | --- |
+| 13 Miles building and site services | HVAC, internal water, sewer, external water, mechanical site |
+| Ovacado Estate | Water/fire site plan; tank/filtration/pump details |
+| Chililabombwe | Fuel-station mechanical site and details |
+| Apartments | HVAC layout and schedules |
+| Office | HVAC layout, schedules and details |
+
+Each project page has a sheet selector, zoom controls, native touch/keyboard scrolling, source-image downloads and selected detail views. The original drawing credits are preserved. These are portfolio exports, not independently verified installation records.
+
 - HVAC load estimation, equipment selection, ductwork, and ventilation layouts
 - Water-supply and sewer reticulation design
 - Fuel-station tank, pipework, offloading, and dispensing layouts
@@ -34,6 +46,9 @@ Grip-repo/
 ├── index.html          # Portfolio content and page structure
 ├── styles.css          # Responsive visual system
 ├── script.js           # Navigation and project filtering
+├── drawings.css        # Drawing cards, project pages and viewer styles
+├── drawings.js         # Sheet selection, zoom and source-download links
+├── projects/           # Five static drawing project pages
 ├── sitemap.xml         # Preferred public URL for search engines
 ├── robots.txt          # Crawler access and sitemap discovery
 ├── .nojekyll           # Serve the static site without Jekyll processing
@@ -86,7 +101,7 @@ You can also upload images directly on GitHub: open the target `assets/projects/
 
 ## License
 
-Code is available under the [MIT License](LICENSE). Project drawings and client deliverables added later may require separate usage terms.
+Code is available under the [MIT License](LICENSE). Supplied project drawings retain their original ownership and are excluded from the code licence.
 
 ## Google indexing
 
