@@ -35,7 +35,11 @@ Grip-repo/
 ├── styles.css          # Responsive visual system
 ├── script.js           # Navigation and project filtering
 ├── assets/
+│   ├── brand/          # Original MKG logo assets
+│   ├── projects/       # Your future project media
+│   ├── reference/      # Temporary licensed reference images
 │   └── README.md       # Guide for adding project media
+├── CREDITS.md          # Reference-image sources and licences
 ├── LICENSE
 └── README.md
 ```
