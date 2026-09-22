@@ -2,11 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mackeygrip.github.io/</loc>
-    <lastmod>2026-09-19</lastmod>
+    <lastmod>2026-09-22</lastmod>
   </url>
   <url><loc>https://mackeygrip.github.io/projects/thirteen-miles.html</loc></url>
   <url><loc>https://mackeygrip.github.io/projects/estate-water-fire.html</loc></url>
   <url><loc>https://mackeygrip.github.io/projects/chililabombwe-fuel.html</loc></url>
   <url><loc>https://mackeygrip.github.io/projects/apartments-hvac.html</loc></url>
   <url><loc>https://mackeygrip.github.io/projects/office-hvac.html</loc></url>
+  <url><loc>https://mackeygrip.github.io/services/hvac-air-conditioning-design-zambia.html</loc><lastmod>2026-09-22</lastmod></url>
+  <url><loc>https://mackeygrip.github.io/services/mep-design-coordination-zambia.html</loc><lastmod>2026-09-22</lastmod></url>
+  <url><loc>https://mackeygrip.github.io/visuals.html</loc><lastmod>2026-09-22</lastmod></url>
 </urlset>

@@ -23,6 +23,14 @@ Each project page has a sheet selector, zoom controls, native touch/keyboard scr
 - Excel dashboards, scenario analysis, and data cleaning
 - EV battery and vehicle-assembly supply-chain modelling for Zambia
 
+## Presentation artwork
+
+The portfolio includes **13 polished visuals**: five project covers, two presentation boards, one annotated layout, three social graphics and two clearly labelled AI-generated concept illustrations. Open `visuals.html` to browse and download them. The original CAD exports and logo remain unchanged.
+
+PNG files are ready to share; SVG files retain editable presentation text and framing around embedded raster drawings. WebP copies serve the website efficiently. See [the visual asset guide](assets/visuals/README.md) for dimensions, source records and rebuilding instructions.
+
+For the complete visual and SEO update, use [VISUAL-PUBLISHING.md](VISUAL-PUBLISHING.md). This replaces the earlier SEO-only ZIP instructions.
+
 ## View locally
 
 No build step or dependencies are required.
@@ -54,7 +62,8 @@ Grip-repo/
 ├── .nojekyll           # Serve the static site without Jekyll processing
 ├── assets/
 │   ├── brand/          # Original MKG logo assets
-│   ├── projects/       # Your future project media
+│   ├── projects/       # Ten original CAD drawing exports
+│   ├── visuals/        # Covers, boards, social graphics and concepts
 │   ├── reference/      # Temporary licensed reference images
 │   └── README.md       # Guide for adding project media
 ├── CREDITS.md          # Reference-image sources and licences
@@ -104,6 +113,8 @@ You can also upload images directly on GitHub: open the target `assets/projects/
 Code is available under the [MIT License](LICENSE). Supplied project drawings retain their original ownership and are excluded from the code licence.
 
 ## Google indexing
+
+The dedicated service pages in `services/` explain HVAC/air-conditioning design and mechanical/plumbing MEP coordination. They link to the real drawing portfolio and are listed in the sitemap. See [SEO-PUBLISHING.md](SEO-PUBLISHING.md) for the update commands and Search Console follow-up.
 
 The public site is configured for `https://mackeygrip.github.io/` with canonical metadata, structured business data, `robots.txt`, and an XML sitemap. After publishing:
 
